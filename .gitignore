@@ -1,0 +1,14 @@
+# C++ build
+server-cpp/build/
+*.o
+*.obj
+*.pdb
+*.exe
+
+# Node
+client-ts/node_modules/
+client-ts/dist/
+
+# OS junk
+.DS_Store
+Thumbs.db
