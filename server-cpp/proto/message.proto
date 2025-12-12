@@ -1,0 +1,9 @@
+syntax = "proto3";
+package cot;
+
+import "nanopb.proto";
+
+message PlainMessage {
+  string type = 1 [(nanopb).max_size = 32];
+  bytes  payload = 2 [(nanopb).max_size = 256];
+}
